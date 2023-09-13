@@ -1,0 +1,40 @@
+.card {
+    width: 400px;
+    margin: 10px auto;
+    border: 2px solid rgb(224, 224, 224);
+    border-radius: 15px;
+}
+
+.card-header {
+    width: 400px;
+    position: relative;
+    text-align: center;
+}
+
+.card-img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-profile {
+    position: absolute;
+    width: 30%;
+    bottom: -60px;
+    left: 35%;
+    border-radius: 50%;
+    border:4px solid white;
+}
+
+.card-footer {
+    text-align: center;
+    margin-top: 80px;
+}
+.card-footer h1{
+    font-weight: 800;
+    color:rgb(44, 44, 44)
+}
+.card-footer h2{
+    font-weight: 400;
+    color:rgb(72, 72, 72);
+}
